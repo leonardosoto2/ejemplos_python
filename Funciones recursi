@@ -1,0 +1,19 @@
+def atras(segundos):
+    segundos -=1
+    if segundos > 0:
+        print(segundos)
+        atras(segundos)
+    else:
+        print("termino cuenta atras")
+#atras(20)
+
+while (True):
+    try:
+        variable = float(input("introduce algo:"))
+        a =2
+        print("reultado", a*variable)
+        break
+    except:
+        print("ingresaste algo que no corresponde")
+    finally:
+        print("termina")
